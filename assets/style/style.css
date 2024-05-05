@@ -1,9 +1,4 @@
 
-.profilimage {
-    width: 200px;
-    
-}
-
 .profile {
     display: flex;
     justify-content: center;
@@ -19,7 +14,7 @@
 }
 
 body {
-    background: linear-gradient(#FFAF45 0%, #FB6D48 30%, #D74B76 100%);
+    background: linear-gradient(#FFAF45 0%, #FB6D48 30%);
     font-family: "Poppins", sans-serif;
 }
 
@@ -46,7 +41,7 @@ h5 span ::before {
 }
 
 .project {
-    background-color: #ffff;
+    background: linear-gradient(#ffffff 60%, #FB6D48 90%);
     margin-top: -5vw;
     
 }
@@ -232,21 +227,4 @@ color: #fff;
 .overlay li {
     list-style: none;
 }
-
-.compro {
-    background-color: #fff;
-    /* background: linear-gradient(#ffffff 0%, #FB6D48 80%, #D74B76 100%); */
-    display: flex;
-    margin-top: -50px;
-}
-
-.compro h2 {
-    margin-top: 70px;
-    width: 100%;
-    font-size: 18px;
-    margin-left: 30px;
-}
-
-
-
 
