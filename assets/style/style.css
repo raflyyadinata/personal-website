@@ -30,7 +30,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 2rem 5% 2rem;
+    padding: 1.5rem 10% 1rem;
     background: rgba(0,0,0,0.3);
     backdrop-filter: blur(10px);
     display: flex;
@@ -61,7 +61,7 @@ body {
     text-shadow: 0 0 25px var(--main-color);
 }
 .navbar a {
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: var(--text-color);
     margin-left: 2rem;
     font-weight: 500;
@@ -83,35 +83,41 @@ body {
     color: var(--main-color);
 }
 
-/* h3 {
+.home-content h3 {
     font-weight: 600;
-    color: var(--text-color)
+    color: var(--text-color);
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
 }
 
-h3 span {
+.home-content h3 span {
     position: relative;
 }
 
-h3 span ::before {
+.home-content h3 span ::before {
     content: "";
     right: -8px;
     top: 50%;
     position: absolute;
-    height: 30px;
-    width: 2px;
     transform: translateY(-45%);
-} */
+}
 
 section {
     min-height: 100vh;
-    padding: 4rem 8% 8rem;
+    padding: 6rem 8% 4rem;
 }
 
-.home {
+.education {
+    background-color: var(--second-bg-color);
+    margin-top:-2.4rem ;
+}
+
+.home  {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10rem;
+    gap: 7rem;
+    text-align: justify;
 }
 
 .home-content {
@@ -127,43 +133,35 @@ span {
 }
 .home-content h1 {
     margin-top: 2rem;
-    font-size: 3.5rem;
-}
-.home-content h3 {
-    margin-bottom: 1rem;
     font-size: 1.5rem;
-}
-
-.home-img {
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
 }
 
 .home-img img {
     position: relative;
-    top: 3rem;
-    width: 32vw;
-    border-radius: 50%;
-    box-shadow: 0 0 25px var(--main-color);
-    cursor: pointer;
+    top: 2rem;
+    left: 2rem;
+    width: 37vw;
+    /*box-shadow: 0 0 25px var(--main-color);
+    */cursor: pointer;
     transition: 0.4s ease-in-out;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
+    filter: drop-shadow(0 0 0 10px var(--main-color));
+    opacity: 0.8;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+    -webkit-transition: 0.4s ease-in-out;
     -webkit-transition: 0.4s ease-in-out;
     -moz-transition: 0.4s ease-in-out;
     -ms-transition: 0.4s ease-in-out;
     -o-transition: 0.4s ease-in-out;
+    -webkit-filter: drop-shadow(0 0 0 10px var(--main-color));
 }
 
 .home-img img:hover {
-    box-shadow: 0 0 25px var(--main-color),
-                0 0 50px var(--main-color),
-                0 0 100px var(--main-color);
+    opacity: 0.4;
+    transition: opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
+
 }
 
 .social-menu {
@@ -242,7 +240,7 @@ color: #fff;
 
 .btn {
     display: inline-block;
-    margin-top: 1rem;
+    margin-top: 2rem;
     padding: 0.5rem 1.5rem;
     background: var(--main-color);
     box-shadow: 0 0 25px var(--main-color);
