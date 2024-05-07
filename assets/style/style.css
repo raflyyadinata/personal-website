@@ -107,10 +107,7 @@ section {
     padding: 6rem 8% 4rem;
 }
 
-.education {
-    background-color: var(--second-bg-color);
-    margin-top:-2.4rem ;
-}
+
 
 .home  {
     display: flex;
@@ -138,8 +135,6 @@ span {
 
 .home-img img {
     position: relative;
-    top: 2rem;
-    left: 2rem;
     width: 37vw;
     /*box-shadow: 0 0 25px var(--main-color);
     */cursor: pointer;
@@ -275,3 +270,140 @@ color: #fff;
     box-shadow: 0 0 25px transparent;
 }
 
+
+.lines {
+    border-left: 4px solid var(--main-color);
+    border-radius:3px ;
+    height: auto;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    width: 2px;
+    -webkit-border-radius:3px ;
+    -moz-border-radius:3px ;
+    -ms-border-radius:3px ;
+    -o-border-radius:3px ;
+}
+
+.experience {
+    text-align: start;
+    width: 50%;
+}
+
+.experience h2,
+.educational h2 {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+.skills {
+    padding-left: 15%;
+}
+.skills h2 {
+    
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.experience h5,
+.educational h5 {
+    font-weight: 100;
+}
+.educational h3 {
+    padding: 0.8rem 0 0.8rem;
+    margin-bottom: 3rem;
+}
+
+.experience h3 {
+    padding: 0.8rem 0 0.8rem;
+}
+.experience p,
+.educational p {
+    margin-bottom: 3rem;
+}
+
+.educational {
+    text-align: end;
+    width: 50%;
+}
+
+.education {
+    background-color: var(--second-bg-color);
+    margin-top:-2.4rem ;
+    display: flex;
+    color: whitesmoke;
+    justify-content: center;
+    align-content: center;
+}
+
+.bar-box {
+    background: #333333;
+    position: relative;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.skill {
+    padding: 1rem 0 0 1rem;
+}
+
+.ps {
+    position: absolute;
+    right: 2px;
+    top: 5px;
+    color: white;
+    font-size: 10px;
+    font-weight: bold;
+}
+.html-skill {
+    animation: html 2s forwards;
+    width: 0%;
+    border-radius: 5px;
+    background: var(--main-color);
+    height: 20px;
+    -webkit-animation: html 2s forwards;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.fm-skill {
+    animation: fm 2s forwards;
+    width: 0%;
+    border-radius: 5px;
+    background: var(--main-color);
+    height: 20px;
+    -webkit-animation: fm 2s forwards;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.ps-skill {
+    animation: ps 2s forwards;
+    width: 0%;
+    border-radius: 5px;
+    background: var(--main-color);
+    height: 20px;
+    -webkit-animation: ps 2s forwards;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+@keyframes html{
+    to{
+        width: 78%;
+    }
+}
+@keyframes fm{
+    to{
+        width: 80%;
+    }
+}
+@keyframes ps{
+    to{
+        width: 75%;
+    }
+}

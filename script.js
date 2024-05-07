@@ -1,5 +1,5 @@
 const dynamicText = document.querySelector("h3 span");
-const words = ["Website Developer", "UI/UX Designer","Blogger", "Graphic Designer"];
+const words = ["Website Developer", "UI/UX Designer", "Blogger", "Graphic Designer"];
 
 let wordIndex = 0;
 let charIndex = 0;
@@ -10,7 +10,7 @@ const typeEffect = () => {
     const currentChar = currentWord.substring(0, charIndex);
     dynamicText.textContent = currentChar;
 
-    if(!isDeleting && charIndex < currentWord.length) {
+    if (!isDeleting && charIndex < currentWord.length) {
         //if true,type the next character type text
         charIndex++;
         setTimeout(typeEffect, 200);
@@ -25,5 +25,7 @@ const typeEffect = () => {
     }
 }
 
-typeEffect ();
+typeEffect();
+
+
 
