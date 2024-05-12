@@ -112,7 +112,6 @@ body {
     justify-content: center;
     gap: 7rem;
     text-align: justify;
-    min-height: 100vh;
     padding: 6rem 8% 2rem;
 }
 .home-content {
@@ -233,6 +232,28 @@ color: #fff;
 .btn {
     display: inline-block;
     margin-top: 2rem;
+    padding: 0.5rem 1.5rem;
+    background: var(--main-color);
+    box-shadow: 0 0 25px var(--main-color);
+    border-radius: 2rem;
+    font-size: 0.8rem;
+    color: black;
+    border: 1px solid transparent;
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    transition: 0.3 ease-in-out;
+    cursor: pointer;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
+    -webkit-transition: 0.3 ease-in-out;
+    -moz-transition: 0.3 ease-in-out;
+    -ms-transition: 0.3 ease-in-out;
+    -o-transition: 0.3 ease-in-out;
+}
+.btn2 {
+    display: inline-block;
     padding: 0.5rem 1.5rem;
     background: var(--main-color);
     box-shadow: 0 0 25px var(--main-color);
@@ -471,8 +492,7 @@ color: #fff;
 }
 
 .info {
-    width: 15rem;
-    height: 8rem;
+    width: 90%;
     outline: 3px solid var(--second-bg-color);
     display: grid;
     border-radius: 1px;
@@ -493,7 +513,8 @@ color: #fff;
 }
 
 .info h3 {
-    margin-left: 20px;
+    margin-left: 2rem;
+    font-size: 90%;
 }
 
 .info span {
@@ -543,14 +564,15 @@ color: #fff;
 .contact form .input-box input,
 .contact form textarea {
     width: 100%;
+    height: 80%;
     padding: 1rem;
     font-size: 1rem;
     color: var(--text-color);
     background: var(--second-bg-color);
-    border-radius: 2rem;
+    border-radius: 1rem;
     border: 2px solid var(--main-color);
     border-radius: 1rem;
-    margin: 0.5rem 0;
+    margin: 1rem 0;
     resize: none;
     -webkit-border-radius: 1rem;
     -moz-border-radius: 1rem;
@@ -558,9 +580,6 @@ color: #fff;
     -o-border-radius: 1rem;
 }
 
-.input-grub {
-    margin-top: -55px;
-}
 
 footer {
     background: var(--second-bg-color);
@@ -572,4 +591,8 @@ footer p {
     padding: 1rem 10% 1rem;
     font-size: 12px;
     font-weight: 100;
+}
+
+@media(max-width:1285px) {
+ 
 }
