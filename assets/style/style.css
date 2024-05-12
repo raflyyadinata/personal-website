@@ -290,6 +290,7 @@ color: #fff;
 .educational h2 {
     font-size: 2rem;
     margin-bottom: 3rem;
+    font-weight: 600;
 }
 .skills {
     margin-right:5rem;
@@ -297,6 +298,7 @@ color: #fff;
 .skills h2 {
     
     font-size: 2rem;
+    font-weight: 600;
     margin-bottom: 1rem;
 }
 .experience h5,
@@ -305,7 +307,7 @@ color: #fff;
 }
 .educational h3 {
     padding: 0.8rem 0 0.8rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .experience h3 {
@@ -314,16 +316,18 @@ color: #fff;
 .experience p,
 .educational p {
     margin-bottom: 3rem;
+    font-size: 12px;
+    font-weight: 100;
 }
 
 .educational {
     text-align: start;
     width: 50%;
 }
-
-.education {
-    margin-top:-2.4rem ;
+.educationn {
     padding: 3rem 12% 2rem;
+}
+.education {
     display: flex;
     color: whitesmoke;
     justify-content: center;
@@ -405,10 +409,6 @@ color: #fff;
     }
 }
 
-.titel {
-    text-align: center;
-}
-
 .resume {
     padding: 3rem 10% 2rem;
 }
@@ -426,6 +426,11 @@ color: #fff;
     position: relative;
     letter-spacing: 10px;
 }
+
+.titel {
+    text-align: center;
+}
+
 
 .personals {
     display: flex;
@@ -508,4 +513,63 @@ color: #fff;
     height: 2px;
     background-color: white;
     margin-left: 1.7rem;
+}
+
+.contact {
+    padding: 3rem 10% 1rem;
+    background-color: var(--bg-color);
+}
+
+.contact h2 {
+    margin-bottom: 3rem;
+    color: white;
+
+}
+.contact form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.contact form .input-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact form .input-box input,
+.contact form textarea {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    color: var(--text-color);
+    background: var(--second-bg-color);
+    border-radius: 2rem;
+    border: 2px solid var(--main-color);
+    border-radius: 1rem;
+    margin: 0.5rem 0;
+    resize: none;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.input-grub {
+    margin-top: -55px;
+}
+
+footer {
+    background: var(--second-bg-color);
+    text-align: center;
+    padding: 1rem 10% 1rem;
+}
+
+footer p {
+    padding: 1rem 10% 1rem;
+    font-size: 12px;
+    font-weight: 100;
 }
