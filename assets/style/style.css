@@ -664,5 +664,8 @@ footer p {
         width: 100%;
     }
     
+    .titel h1 {
+        letter-spacing: 0;
+    }
     
 }   
