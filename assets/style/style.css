@@ -112,6 +112,7 @@ body {
     justify-content: center;
     gap: 7rem;
     text-align: justify;
+
     padding: 6rem 8% 2rem;
 }
 .home-content {
@@ -593,6 +594,32 @@ footer p {
     font-weight: 100;
 }
 
-@media(max-width:1285px) {
- 
+.home-content img {
+    display: none;
+}
+
+@media(max-width:1085px) {
+    html {
+        font-size: 80%;
+    }
+}
+@media(max-width:688px) {
+    .home {
+        display: grid;
+    }
+
+    .home-content {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-img img {
+        display: none;
+    }
+
+    .home-content img {
+        width: 50%;
+        display: block;
+    }
 }
