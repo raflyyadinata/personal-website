@@ -606,6 +606,7 @@ footer p {
 @media(max-width:688px) {
     .home {
         display: grid;
+        gap: 0;
     }
 
     .home-content {
@@ -622,4 +623,27 @@ footer p {
         width: 50%;
         display: block;
     }
-}
+
+    .personal-info {
+        display: grid;
+        justify-content: center;
+    }
+
+    .personal {
+        width: 100%;
+    }
+    .personal h1 {
+        text-align: center;
+    }
+
+    .infos {
+        width: 100%;
+    }
+    .info {
+        margin-left: 0;
+    }
+
+    .info h3 {
+        margin-bottom: 20px;
+    }
+}   
