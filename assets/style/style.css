@@ -78,9 +78,9 @@ body {
     border-bottom: 3px solid var(--main-color);
 
 }
-#menu-icon {
-    font-size: 3.6rem;
+.bar {
     color: var(--main-color);
+    display: none !important;
 }
 
 .home-content h3 {
@@ -603,6 +603,38 @@ footer p {
         font-size: 80%;
     }
 }
+@media(max-width:895px) {
+
+    .bar {
+        display: block !important;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 50%;
+        padding: 1rem 3%;
+        background: rgba(0, 0, 0, 0.8);
+        backdrop-filter: blur(20px);
+        border-bottom-left-radius:2rem;
+        border-left: 2px solid var(--main-color);
+        border-bottom: 2px solid var(--main-color);
+        display: none;
+
+    }
+    .navbar.active {
+        display: block;
+    }
+    .navbar a {
+        display: block;
+        font-size: 2rem;
+        margin: 3rem 0;
+        color: white;
+    }
+
+
+}
 @media(max-width:688px) {
     .home {
         display: grid;
@@ -673,8 +705,3 @@ footer p {
     }
     
 }   
-@media(max-width:456px) {
-    html {
-        font-size: 65%;
-    }
-}
