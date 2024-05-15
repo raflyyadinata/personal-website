@@ -638,7 +638,7 @@ footer p {
         width: 100%;
     }
     .personal h1 {
-        text-align: center;
+        display: none;
     }
 
     .infos {
@@ -667,5 +667,14 @@ footer p {
     .titel h1 {
         letter-spacing: 0;
     }
+
+    .contact form {
+        display: block;
+    }
     
 }   
+@media(max-width:456px) {
+    html {
+        font-size: 65%;
+    }
+}
