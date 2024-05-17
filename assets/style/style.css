@@ -136,8 +136,9 @@ span {
 .home-img img {
     position: relative;
     width: 37vw;
-    /*box-shadow: 0 0 25px var(--main-color);
-    */cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 0 0 25px var(--main-color);
+    cursor: pointer;
     transition: 0.4s ease-in-out;
     filter: drop-shadow(0 0 0 10px var(--main-color));
     transition: opacity 1s ease-in-out;
@@ -148,6 +149,10 @@ span {
     -ms-transition: 0.4s ease-in-out;
     -o-transition: 0.4s ease-in-out;
     -webkit-filter: drop-shadow(0 0 0 10px var(--main-color));
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 
 .home-img img:hover {
