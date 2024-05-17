@@ -623,6 +623,10 @@ footer p {
         gap: 0;
     }
 
+    .lines {
+        display: none;
+    }
+
     .home-content {
         text-align: center;
         justify-content: center;
